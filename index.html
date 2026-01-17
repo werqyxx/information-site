@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<meta charset="UTF-8">
+<title>Artificial Intelligence</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root{
+  --blue:#00cfff;
+  --purple:#7a5cff;
+  --dark:#05060a;
+  --white:#ffffff;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI',sans-serif;
+}
+
+body{
+  background: radial-gradient(circle at top, #0b1a2f, #000);
+  color:var(--white);
+}
+
+/* ===== HEADER ===== */
+header{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
+  padding:30px;
+  border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+header img{
+  width:65px;
+  filter: drop-shadow(0 0 15px #00cfff);
+}
+
+header h1{
+  font-size:2.2rem;
+  letter-spacing:2px;
+}
+
+/* ===== MAIN ===== */
+main{
+  max-width:1200px;
+  margin:60px auto;
+  padding:0 20px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+}
+
+/* ===== CARD ===== */
+.card{
+  background:linear-gradient(160deg, rgba(122,92,255,0.15), rgba(0,207,255,0.15));
+  border:1px solid rgba(0,207,255,0.4);
+  border-radius:20px;
+  padding:25px;
+  text-align:center;
+  box-shadow:0 0 25px rgba(0,207,255,0.25);
+  transition:0.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 45px rgba(122,92,255,0.6);
+}
+
+/* ICON */
+.icon-box{
+  position:relative;
+  margin-bottom:15px;
+}
+
+.icon-box img{
+  width:80px;
+}
+
+/* VIDEO BUTTON */
+.icon-box a{
+  display:inline-block;
+  margin-top:12px;
+  padding:8px 18px;
+  border-radius:20px;
+  background:linear-gradient(90deg,var(--blue),var(--purple));
+  color:#000;
+  text-decoration:none;
+  font-weight:600;
+  font-size:0.9rem;
+  box-shadow:0 0 15px rgba(0,207,255,0.7);
+  transition:0.3s;
+}
+
+.icon-box a:hover{
+  transform:scale(1.1);
+  box-shadow:0 0 25px rgba(122,92,255,1);
+}
+
+.card h2{
+  margin:12px 0 8px;
+  color:var(--blue);
+}
+
+.card p{
+  font-size:0.95rem;
+  line-height:1.5;
+  opacity:0.9;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  text-align:center;
+  padding:20px;
+  opacity:0.6;
+  font-size:0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="https://i.postimg.cc/PrJg1WsP/84ec906b-1131-43bf-a05b-ade68bf4d02c.png" alt="">
+  <h1>ARTIFICIAL INTELLIGENCE</h1>
+</header>
+
+<main>
+<section class="cards">
+
+  <div class="card">
+    <div class="icon-box">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png">
+      <a href="https://www.youtube.com/watch?v=2ePf9rue1Ao" target="_blank">
+        ▶ Watch video
+      </a>
+    </div>
+    <h2>What is AI</h2>
+    <p>
+      Artificial Intelligence is a set of technologies that allow computers
+      to think, learn, and make decisions.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="icon-box">
+      <img src="https://cdn-icons-png.flaticon.com/512/2784/2784461.png">
+      <a href="https://www.youtube.com/watch?v=ad79nYk2keg" target="_blank">
+        ▶ Watch video
+      </a>
+    </div>
+    <h2>Applications</h2>
+    <p>
+      AI is used in medicine, transportation, games,
+      education, business, and cybersecurity.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="icon-box">
+      <img src="https://cdn-icons-png.flaticon.com/512/2620/2620992.png">
+      <a href="https://www.youtube.com/watch?v=NkWjz0j5v6M" target="_blank">
+        ▶ Watch video
+      </a>
+    </div>
+    <h2>Future of AI</h2>
+    <p>
+      In the future, AI will become even smarter and will help
+      people in all areas of life.
+    </p>
+  </div>
+
+</section>
+</main>
+
+<footer>
+© 2026 Artificial Intelligence Information Portal
+</footer>
+
+</body>
+</html>
